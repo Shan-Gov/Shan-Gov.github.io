@@ -1,0 +1,25 @@
+body {
+    font-family: Open Sans,Arial;
+    color: #454545;
+    font-size: 16px;
+    margin: 2em auto;
+    max-width: 800px;
+    padding: 1em;
+    line-height: 1.4;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+
+body::after {
+    content: "";
+    background-image: url("5da958b4b0a6c.png");
+    opacity: 0.4;
+    background-size: stretch;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    width: 63vh;/* Set the desired opacity value (0.0 to 1.0) */
+    position: absolute;
+    z-index: -1; /* Ensure the pseudo-element is behind the content */
+}
